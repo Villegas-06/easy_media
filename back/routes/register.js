@@ -4,7 +4,6 @@ const UserRegister = require('../models/registrer_user');
 const bcrypt = require('bcrypt');
 
 router.post('/register', async (req, res) => {
-    console.log(req);
     try {
         const { username, email, password, confirm_password } = req.body;
         const existUser = await UserRegister.findOne({ username });

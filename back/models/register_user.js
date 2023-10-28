@@ -9,4 +9,4 @@ const userRegisterSchema = new mongoose.Schema({
 
 const UserRegister = mongoose.model('UserRegister', userRegisterSchema, 'users');
 
-module.exports = UserRegister;
+module.exports = UserRegister; 

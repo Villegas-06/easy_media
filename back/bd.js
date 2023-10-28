@@ -9,4 +9,4 @@ mongoose.connect('mongodb+srv://miguelmoville:rmcqxADsAq2c8GrS@easymedia.f43ggjb
     })
     .catch(err => {
         console.error('Error de conexión a MongoDB Atlas: ' + err);
-    });
+    }); 
